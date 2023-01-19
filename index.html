@@ -9,35 +9,45 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css
    "
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
     <title>boosted</title>
   </head>
   <body>
     <!--header шапка-->
     <header class="page-header">
-      <div>
-        <p>Financing option available at checkout.</p>
+      <div class="container">
+        <div class="wrap-header">
+          <p class="subtitle-header">Financing option available at checkout.</p>
+        </div>
+        <nav class="page-header_nav">
+          <a href="./index.html" class="logo">
+            <img src="./images/logo-pic-png/logo-boosted.png" alt="logo" />
+          </a>
+          <ul class="main-nav">
+            <li class="main-nav_item">Electric Skateboards</li>
+            <li class="main-nav_item">Electric Scooters</li>
+            <li class="main-nav_item">Accessories</li>
+            <li class="main-nav_item">Gift Card</li>
+            <li class="main-nav_item">More Info</li>
+          </ul>
+
+          <ul class="list-account">
+            <li class="item-account">svg-icon</li>
+            <li class="item-account">svg-icon</li>
+          </ul>
+        </nav>
       </div>
-      <nav class="page-header_nav">
-        <a href="./index.html" class="logo">
-          <img src="./images/logo-pic-png/logo-boosted.png" alt="logo" />
-        </a>
-        <ul class="main-nav">
-          <li class="main-nav_item">Electric Skateboards</li>
-          <li class="main-nav_item">Electric Scooters</li>
-          <li class="main-nav_item">Accessories</li>
-          <li class="main-nav_item">Gift Card</li>
-          <li class="main-nav_item">More Info</li>
-        </ul>
-      </nav>
-      <ul class="list-account">
-        <li class="item-account">svg-icon</li>
-        <li class="item-account">svg-icon</li>
-      </ul>
       <main>
         <!--Блок герой основний слайд сайту-->
         <section class="section-hero">
-          <h1>Welcome to Boosted USA</h1>
-          <p>
+          <h1 class="title_hero">Welcome to Boosted USA</h1>
+          <p class="subtitle">
             The Holy Grail of Electric Skateboards and One REVolutionary Scooter
           </p>
           <ul class="list-button">
@@ -48,26 +58,68 @@
               <button type="button" class="hero-button">BOOSTED BOARDS</button>
             </li>
           </ul>
-          <div class="">
-            <ul>
-              <li>
+        </section>
+        <!--Наші партнери-->
+        <section class="partners">
+          <div>
+            <ul class="list_partners">
+              <li class="items_partners">
                 <img src="./images/logo-pic-png/electrek.png" alt="logo" />
               </li>
               <li>
                 <img src="./images/logo-pic-png/techchrunch.png" alt="logo" />
               </li>
               <li>
-                <img src="./images/logo-pic-png/electrek.png" alt="logo" />
+                <img src="./images/logo-pic-png/mechanics.png" alt="logo" />
               </li>
               <li>
-                <img src="./images/logo-pic-png/electrek.png" alt="logo" />
+                <img src="./images/logo-pic-png/wired.png" alt="logo" />
               </li>
             </ul>
           </div>
         </section>
-        <section></section>
-        <section></section>
-        <section></section>
+        <!--Looking for Boosted Boards, or Boosted Revs?-->
+        <section class="bosted">
+          <h2 class="title-bosted">
+            Looking for Boosted Boards, or Boosted Revs?
+          </h2>
+          <p class="subtitle-bosted">
+            Boosted USA acquired all of the remaining inventory directly from
+            Boosted. This means we have the electric skateboards and scooter you
+            all love and have been looking for. Get your hands on these highly
+            sought after products while supplies last.
+          </p>
+          <ul class="list-shop">
+            <li class="item-shop">
+              <div class="item-wrappper_boards">
+                <p class="description-wrap">Shop Boosted Boards</p>
+                <p class="title-wrapper">In Stock</p>
+              </div>
+            </li>
+            <li class="item-shop">
+              <div class="item-wrappper_resvs">
+                <p class="description-wrap">Shop Boosted Boards</p>
+                <p class="title-wrapper">In Stock</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <!--Блок Electric Skateboards -->
+        <section class="electric-skateboards">
+          <p class="electric-skateboards__subtitle">High-performance</p>
+          <h2 class="electric-skateboards__title">Electric Skateboards</h2>
+          <p class="electric-skateboards__description">
+            Cruising campus, going to work or getting through that long list of
+            errands has never been easier or more fun.
+          </p>
+          <button
+            type="button"
+            class="electric-skateboards__button"
+            data-modal-open=""
+          >
+            Shop Now
+          </button>
+        </section>
         <section></section>
       </main>
     </header>

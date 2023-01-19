@@ -1,0 +1,286 @@
+/* основний колір тексту #212121; */
+
+/*другорядний колір тексту #757575; */
+
+/* білий колір #FFFFFF; */
+
+/* синій (акцент) колір #2196F3; */
+
+/* другорядний колір фону  #F5F4FA; */
+
+/* колір фону блок герой і футор  #2F303A; */
+
+/* колір логотипу #000000 .. #2196F3; */
+
+:root {
+  --primart-text-color: #000000;
+  --title-text-color: #757575;
+  --accent-color: #ff4a32;
+  --futer-bg-color: #2f303a;
+  --logo-color: #000000;
+  --background-color: #fff;
+  --background-color-boosted: #e5e5e5;
+  --contener-color: #eeeee;
+  --icon-color: #afb1b8;
+  --items-shadow: #eeeeee;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+}
+
+.wrap-header {
+  background-color: var(--logo-color);
+}
+
+.subtitle-header {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.25;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #fbfbfb;
+  padding: 7px;
+}
+
+.page-header_nav {
+  display: flex;
+}
+.logo {
+  margin-top: 15px;
+  margin-right: 102px;
+}
+
+.main-nav {
+  display: flex;
+  gap: 23px;
+}
+
+.main-nav_item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 22px 0;
+  cursor: pointer;
+}
+
+.list-account {
+  display: flex;
+}
+
+.section-hero {
+  max-width: 1410px;
+  height: 810px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../images/bg-images/hero-rectangle.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.title_hero {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.15;
+  text-align: center;
+  padding-top: 53px;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.26;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 53px;
+}
+
+.list-button {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding-top: 22px;
+}
+
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--background-color);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.46;
+  border-radius: 35px;
+  padding: 5px 47px;
+  cursor: pointer;
+  border: none;
+}
+
+.partners {
+  margin: 0 auto;
+  max-width: 1410px;
+  background-color: var(--primart-text-color);
+}
+
+.list_partners {
+  display: flex;
+  justify-content: space-around;
+  padding: 18px 0;
+}
+
+/* Looking for Boosted Boards, or Boosted Revs? */
+
+.bosted {
+  margin: 0 auto;
+  max-width: 1410px;
+  background-color: var(--background-color-boosted);
+}
+
+.title-bosted {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.12;
+  text-align: center;
+  padding-top: 52px;
+}
+
+.subtitle-bosted {
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.26;
+  width: 685px;
+  text-align: center;
+  padding-top: 17px;
+}
+
+.list-shop {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 72px;
+  padding-bottom: 20px;
+}
+
+.item-wrappper_boards {
+  width: 580px;
+  height: 580px;
+  margin: auto;
+  background: #fff url("../images/bg-images/board.jpg") no-repeat center;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.item-wrappper_resvs {
+  width: 580px;
+  height: 580px;
+  margin: auto;
+  background: #fff url("../images/bg-images/scooter.jpg") no-repeat center;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.description-wrap {
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.2;
+  padding-top: 287px;
+}
+
+.title-wrapper {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 10px;
+}
+
+/* Electric Skateboards */
+
+.electric-skateboards {
+  max-width: 1410px;
+  height: 810px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../images/bg-images/electric-kateboards.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.electric-skateboards__subtitle {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.26;
+  text-align: center;
+  letter-spacing: 1px;
+  color: var(--primart-text-color);
+  padding-top: 44px;
+}
+
+.electric-skateboards__title {
+  padding-top: 11px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.13;
+  text-align: center;
+  color: var(--primart-text-color);
+}
+
+.electric-skateboards__description {
+  margin: 0 auto;
+  width: 488px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.26;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-top: 15px;
+  color: var(--primart-text-color);
+}
+
+.electric-skateboards__button {
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+  cursor: pointer;
+  color: var(--background-color);
+  padding: 5px 66px;
+  outline: 1px solid red;
+  background-color: var(--accent-color);
+  border-radius: 35px;
+  border: none;
+}
